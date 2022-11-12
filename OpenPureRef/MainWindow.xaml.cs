@@ -108,6 +108,13 @@ namespace OpenWpfPanAndZoom
             System.Windows.Application.Current.MainWindow.WindowState = WindowState.Normal;
         }
 
+        AboutWindow aboutWindow = new AboutWindow();
+        private void ApplicationAbout_MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            //AboutWindow aboutWindow = new AboutWindow();
+            aboutWindow.ShowDialog();
+        }
+        
         private void NewWorkspace_MenuItem_Click(object sender, RoutedEventArgs e)
         {
             // if clear, will remove gridlines......

@@ -32,6 +32,8 @@
                 <Canvas.ContextMenu>
                     <ContextMenu>
                         <Separator />
+                        <MenuItem Header="About ..."    Click="ApplicationAbout_MenuItem_Click" />
+                        <Separator />
                         <MenuItem Header="New Workspace ..."     Click="NewWorkspace_MenuItem_Click"/>
                         <MenuItem Header="Load Workspace ..."     Click="LoadWorkspace_MenuItem_Click"/>
                         <Separator />

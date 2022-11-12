@@ -1,0 +1,28 @@
+﻿<Window x:Class="OpenWpfPanAndZoom.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpenWpfPanAndZoom"
+        mc:Ignorable="d"
+        Title="AboutWindow" Height="250" Width="400" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#FF41CB6D">
+    <Grid Margin="10">
+        <Grid x:Name="sp" Grid.Row="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+            <Button  Grid.Column="1" HorizontalAlignment="Left"  Content="OK" Height="35"   Name="button1" Width="62" Click="ApplicationAbout_Hiden_Click" />
+            <TextBlock x:Name="sp5" Grid.Row="5" >  OpenPureRef : iamprogram@hotmail.com </TextBlock>
+        </Grid>
+        <ContentPresenter Grid.Row="1"/>
+    </Grid>
+</Window>
