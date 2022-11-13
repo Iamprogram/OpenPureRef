@@ -1,4 +1,4 @@
-# OpenPureRef
+# OpenPureRef ------ Open PureRef ------ OpenSource PureRef
 
 A panning and zooming canvas for Image and PDF files.
 
